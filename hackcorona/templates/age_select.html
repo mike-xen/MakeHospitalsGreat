@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled (copy) (copy)</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/Filter.css">
+    <link rel="stylesheet" href="/static/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="/static/css/Multi-Select-Dropdown-by-Jigar-Mistry.css">
+    <link rel="stylesheet" href="/static/css/multi.min.css">
+    <link rel="stylesheet" href="/static/css/Multiple-Select-MaterializeCSS.css">
+    <link rel="stylesheet" href="/static/css/Select-Search.css">
+    <link rel="stylesheet" href="/static/css/Studious-selectbox-1.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/SWLP_CARAVAN_SELECT_MULTI.css">
+</head>
+
+<body style="background-color: rgb(144,136,136);margin-top: 197px;">
+    <div class="text-center border rounded shadow-lg" style="color: rgb(255,255,255);background-color: #ffffff;margin-right: 10%;margin-left: 10%;height: 319px;">
+        <h1 class="text-center" style="color: rgb(71,182,255);">select your age</h1><form action="/sub" method="post">
+     <p id="demo" style="color:black ;font-size:50px" ></p>
+  <input type="range" min="18" max="100" value="50" class="slider" id="myRange" style="height:20px;width:50%"name="age"> 
+ <br>
+<button class="btn btn-primary" type="submit">ok</button>
+</form>
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+</div>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="/static/js/mdc_select.js"></script>
+    <script src="/static/js/Multi-Select-Dropdown-by-Jigar-Mistry.js"></script>
+    <script src="/static/js/multi.min.js"></script>
+    <script src="/static/js/Multiple-Select-MaterializeCSS.js"></script>
+    <script src="/static/js/Select-Search.js"></script>
+    <script src="/static/js/Studious-selectbox-1.js"></script>
+    <script src="/static/js/SWLP_CARAVAN_SELECT_MULTI-1.js"></script>
+    <script src="/static/js/SWLP_CARAVAN_SELECT_MULTI.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitljed</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/Filter.css">
+    <link rel="stylesheet" href="/static/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="/static/css/Multi-Select-Dropdown-by-Jigar-Mistry.css">
+    <link rel="stylesheet" href="/static/css/multi.min.css">
+    <link rel="stylesheet" href="/static/css/Multiple-Select-MaterializeCSS.css">
+    <link rel="stylesheet" href="/static/css/Select-Search.css">
+    <link rel="stylesheet" href="/static/css/Studious-selectbox-1.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/SWLP_CARAVAN_SELECT_MULTI.css">
+     <style>
+        a{
+            color: #47b6ff !important;
+            font-weight: bolder;
+
+        }
+
+    </style>
+</head>
+
+<body style="background-color: rgb(144,136,136);margin-top: 197px;">
+ <script src="{{ url_for('static' ,filename="js/multi.min.js") }}"></script>
+
+    <div class="text-center border rounded shadow-lg" style="color: rgb(255,255,255);background-color: #ffffff;margin-right: 10%;margin-left: 10%;">
+        <h1 class="text-center" style="color: rgb(71,182,255);">select your symptoms</h1>
+    <head>
+        <meta charset="utf-8" />
+
+
+
+
+        <style>
+         
+
+            .container {
+               
+            }
+        </style>
+    </head>
+
+        <div style=" box-sizing: border-box ;margin: 0 auto; padding: 0 5px; width: 100%">
+
+
+<form action="/sub" method="post">
+<select  multiple="multiple" name="symptom" id="symptom_select">
+<option value="	1	">	Upper abdominal pain	</option>
+<option value="	2	">	Lower abdominal pain	</option>
+<option value="	4	">	Alcohol abuse	</option>
+<option value="	5	">	Anxiety (Nervousness)	</option>
+<option value="	6	">	Arm ache or pain	</option>
+<option value="	7	">	Back ache or pain	</option>
+<option value="	8	">	Bleeding tendency	</option>
+<option value="	9	">	Blood in vomit	</option>
+<option value="	11	">	Pain or soreness of breast	</option>
+<option value="	13	">	Chest pressure	</option>
+<option value="	14	">	Chills	</option>
+<option value="	15	">	Change in behavior	</option>
+<option value="	17	">	Cough	</option>
+<option value="	19	">	Depressed	</option>
+<option value="	21	">	Dizziness	</option>
+<option value="	22	">	Double vision (Diplopia)	</option>
+<option value="	23	">	Ear pressure	</option>
+<option value="	24	">	Pain in the ear	</option>
+<option value="	26	">	Eye pain (Irritation)	</option>
+<option value="	27	">	Facial pain	</option>
+<option value="	28	">	Fainting	</option>
+<option value="	29	">	Fever	</option>
+<option value="	30	">	Fever in the returning traveler	</option>
+<option value="	31	">	Fever of unknown origin	</option>
+<option value="	32	">	Flank pain	</option>
+<option value="	33	">	Frequent urination (Frequency)	</option>
+<option value="	38	">	Delusions or hallucinations	</option>
+<option value="	41	">	Headache	</option>
+<option value="	46	">	Hives	</option>
+<option value="	48	">	Hypothermia (Low temperature)	</option>
+<option value="	49	">	Incontinence (leaking urine)	</option>
+<option value="	51	">	Insomnia (Trouble sleeping)	</option>
+<option value="	52	">	Skin itching	</option>
+<option value="	54	">	Kidney pain (Flank pain)	</option>
+<option value="	57	">	Leg ache or pain	</option>
+<option value="	58	">	Swelling of both legs	</option>
+<option value="	59	">	Lethargy (Sluggishness)	</option>
+<option value="	61	">	Mouth pain	</option>
+<option value="	62	">	Muscle pain	</option>
+<option value="	64	">	Nasal bleeding	</option>
+<option value="	67	">	Neck ache or pain	</option>
+<option value="	68	">	Neck swelling	</option>
+<option value="	69	">	Numbness	</option>
+<option value="	70	">	Obesity	</option>
+<option value="	71	">	Overdose	</option>
+<option value="	73	">	Heart pulsations and palpitations	</option>
+<option value="	77	">	Poisoning	</option>
+<option value="	81	">	Rash	</option>
+<option value="	87	">	Seizure	</option>
+<option value="	88	">	Shortness of breath	</option>
+<option value="	89	">	Shoulder ache or pain	</option>
+<option value="	90	">	Sinus pain and pressure	</option>
+<option value="	93	">	Sore throat	</option>
+<option value="	94	">	Speech problem	</option>
+<option value="	96	">	Substance abuse (Drug abuse)	</option>
+<option value="	98	">	Swallowing problem (Dysphagia)	</option>
+<option value="	102	">	Trauma	</option>
+<option value="	104	">	Unsteady gait (Trouble walking)	</option>
+<option value="	105	">	Vaginal bleeding	</option>
+<option value="	110	">	Vaginal pain	</option>
+<option value="	111	">	Vertigo (Room spinning)	</option>
+<option value="	112	">	Visual problems	</option>
+<option value="	113	">	Vomiting	</option>
+<option value="	114	">	General weakness	</option>
+<option value="	116	">	Tired	</option>
+<option value="	120	">	Throat pain	</option>
+<option value="	121	">	Tremors	</option>
+<option value="	123	">	Weight loss, unexplained	</option>
+<option value="	128	">	Inconsolable baby	</option>
+<option value="	131	">	Swollen lymph nodes (Large lymph nodes)	</option>
+<option value="	132	">	Failure to thrive	</option>
+<option value="	139	">	Itchy rash (Pruritic rash)	</option>
+<option value="	146	">	Learning difficulties	</option>
+<option value="	147	">	Blood in urine (Hematuria)	</option>
+<option value="	148	">	Urinary retention (Inability to urinate)	</option>
+<option value="	150	">	Choking	</option>
+<option value="	152	">	Painful rash	</option>
+<option value="	156	">	Vomiting coffee ground material	</option>
+<option value="	157	">	Ringing in ears (Tinnitus)	</option>
+<option value="	158	">	Mouth ulcers	</option>
+<option value="	159	">	Mouth swelling	</option>
+<option value="	160	">	Eye redness	</option>
+<option value="	163	">	Bleeding gums	</option>
+<option value="	164	">	Loss of balance	</option>
+<option value="	171	">	Muscle spasm	</option>
+<option value="	173	">	Abdominal swelling (Stomach swelling)	</option>
+<option value="	176	">	Hand numbness (paresthesias)	</option>
+<option value="	178	">	Hemoptysis (Coughing blood)	</option>
+<option value="	179	">	Jaundice (Yellowing skin)	</option>
+<option value="	183	">	Blister (Pocket of fluid)	</option>
+<option value="	187	">	Jaw pain	</option>
+<option value="	188	">	Impotence	</option>
+<option value="	190	">	Pustule (Collection of pus)	</option>
+<option value="	193	">	Skin swelling	</option>
+<option value="	194	">	Lip swelling	</option>
+<option value="	195	">	Eye swelling	</option>
+<option value="	197	">	Visual flashing lights	</option>
+<option value="	198	">	Eye floaters	</option>
+<option value="	199	">	Amenorrhea (No menstruation)	</option>
+<option value="	200	">	Blurry vision	</option>
+<option value="	202	">	Painful gums	</option>
+<option value="	203	">	Swollen gums	</option>
+<option value="	207	">	Low heart rate	</option>
+<option value="	208	">	Foot itching	</option>
+<option value="	209	">	Hot flashes	</option>
+<option value="	211	">	Infertility (Female)	</option>
+<option value="	212	">	Increased facial hair	</option>
+<option value="	212	">	Arm swelling	</option>
+<option value="	216	">	Ear swelling	</option>
+<option value="	225	">	Arm itching	</option>
+<option value="	226	">	Hand redness	</option>
+<option value="	227	">	Foot redness	</option>
+<option value="	228	">	Arm redness	</option>
+<option value="	230	">	Hand itching	</option>
+<option value="	232	">	Steatorrhea (Excess fat in stool)	</option>
+<option value="	234	">	Armpit pain	</option>
+<option value="	236	">	Nasal congestion	</option>
+<option value="	238	">	Skin sores	</option>
+<option value="	241	">	Arm numbness (paresthesias)	</option>
+<option value="	242	">	Leg numbness (paresthesias)	</option>
+<option value="	243	">	Foot numbness (paresthesias)	</option>
+<option value="	244	">	Face numbness (paresthesias)	</option>
+<option value="	247	">	Facial droop (weakness)	</option>
+<option value="	257	">	Snoring	</option>
+<option value="	262	">	Chest pain	</option>
+<option value="	264	">	Stomach and abdominal pain	</option>
+<option value="	275	">	Low back ache or pain	</option>
+<option value="	292	">	Confusion	</option>
+<option value="	293	">	Headache and weakness	</option>
+<option value="	294	">	Confusion and headache	</option>
+<option value="	295	">	Nipple discharge	</option>
+
+
+                </select>
+                <button type="submit" style="width:100% ; background-color:#47b6ff ; height:50px ;color: white; border:0">ok</button>
+            </form>
+        </div>
+
+        <script>
+            var select = document.getElementById("symptom_select");
+            multi(select, {
+                non_selected_header: "all symptoms",
+                selected_header: "my symptoms"
+            });
+        </script>
+
+</div>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="/static/js/mdc_select.js"></script>
+    <script src="/static/js/Multi-Select-Dropdown-by-Jigar-Mistry.js"></script>
+    <script src="/static/js/multi.min.js"></script>
+    <script src="/static/js/Multiple-Select-MaterializeCSS.js"></script>
+    <script src="/static/js/Select-Search.js"></script>
+    <script src="/static/js/Studious-selectbox-1.js"></script>
+    <script src="/static/js/SWLP_CARAVAN_SELECT_MULTI-1.js"></script>
+    <script src="/static/js/SWLP_CARAVAN_SELECT_MULTI.js"></script>
+</body>
+
+</html>
