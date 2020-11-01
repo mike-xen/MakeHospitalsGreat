@@ -1,1 +1,1 @@
-# MakeHospitalsGreat Warning for Demo perposes only
+# MakeHospitalsGreat Warning for Demo purposes only
